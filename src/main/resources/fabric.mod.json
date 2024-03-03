@@ -12,6 +12,7 @@
   "environment": "server",
   "entrypoints": {
     "client": [
+      "today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger.NetherOverworldDistanceChangerClient"
     ],
     "main": [
       "today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger.NetherOverworldDistanceChanger"
