@@ -1,4 +1,4 @@
-package today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger;
+package today.qwq.netheroverworlddistancechanger;
 
 import io.wispforest.owo.config.annotation.Config;
 

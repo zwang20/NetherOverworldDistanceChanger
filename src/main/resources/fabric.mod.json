@@ -9,13 +9,13 @@
     "repo": "https://github.com/Rich People/NetherOverworldDistanceChangerether-Overworld-Distance-Remover"
   },
   "license": "GPL-3.0",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "client": [
-      "today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger.NetherOverworldDistanceChangerClient"
+      "today.qwq.netheroverworlddistancechanger.NetherOverworldDistanceChangerClient"
     ],
     "main": [
-      "today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger.NetherOverworldDistanceChanger"
+      "today.qwq.netheroverworlddistancechanger.NetherOverworldDistanceChanger"
     ]
   },
   "mixins": [

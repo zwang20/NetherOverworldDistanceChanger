@@ -1,4 +1,4 @@
-package today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger;
+package today.qwq.netheroverworlddistancechanger;
 
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 public class NetherOverworldDistanceChanger implements ModInitializer {
     public static Logger logger = LoggerFactory.getLogger("NetherOverworldDistanceChanger");
 
-    public static final today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger.NODCConfig CONFIG = today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger.NODCConfig.createAndLoad();
+    public static final today.qwq.netheroverworlddistancechanger.NODCConfig CONFIG = today.qwq.netheroverworlddistancechanger.NODCConfig.createAndLoad();
 
     @Override
     public void onInitialize() {

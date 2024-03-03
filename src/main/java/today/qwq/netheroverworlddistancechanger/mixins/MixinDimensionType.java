@@ -1,10 +1,10 @@
-package today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger.mixins;
+package today.qwq.netheroverworlddistancechanger.mixins;
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import net.minecraft.world.dimension.DimensionType;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
-import today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger.NetherOverworldDistanceChanger;
+import today.qwq.netheroverworlddistancechanger.NetherOverworldDistanceChanger;
 
 @Mixin(DimensionType.class)
 public class MixinDimensionType {
