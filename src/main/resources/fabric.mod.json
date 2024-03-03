@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "netheroverworlddistancechanger",
+  "version": "${version}",
+  "name": "NetherOverworldDistanceChanger",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Rich People/NetherOverworldDistanceChangerether-Overworld-Distance-Remover"
+  },
+  "license": "GPL-3.0",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "today.qwq.netheroverworlddistancechanger.netheroverworlddistancechanger.NetherOverworldDistanceChanger"
+    ]
+  },
+  "mixins": [
+    "netheroverworlddistancechanger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
